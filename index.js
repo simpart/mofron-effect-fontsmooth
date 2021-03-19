@@ -1,8 +1,10 @@
 /**
  * @file mofron-effect-fontsmooth/index.js
- * @brief effect module template for developper
+ * @brief font smooth effect for mofron component
+ *        set font-smoothing style to target dom
  * @license MIT
  */
+const cmputl = mofron.util.component;
 
 module.exports = class extends mofron.class.Effect {
     /**
@@ -18,7 +20,7 @@ module.exports = class extends mofron.class.Effect {
             
             /* init config */
 	    if (0 < arguments.length) {
-                this.config(p1,p2);
+                this.config(p1);
 	    }
         } catch (e) {
             console.error(e.stack);
