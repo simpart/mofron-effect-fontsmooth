@@ -1,0 +1,8 @@
+<setting>
+    <tag load="mofron-comp-text">Text</tag>
+    <tag load="mofron-effect-fontsmooth">FSmooth</tag>
+</setting>
+
+<div effect=FSmooth>
+    <Text style="margin:0.5rem;">Font Smooth Effect</Text>
+</div>
